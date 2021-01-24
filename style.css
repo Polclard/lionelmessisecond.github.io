@@ -1,0 +1,338 @@
+html, body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+img {
+    display: block;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+    font-size: 5vw;
+
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color:#fff;
+    font-weight: bold;
+    font-size: 5vw;
+}
+
+
+.m{
+    height: 50vh;
+}
+
+.topnav {
+    /* background-color: #004C99; */
+    background-image: url("images/messi1.jpg");
+    height: auto; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    padding-right: 2px;
+    padding-bottom: 200px;
+}
+
+.responsive-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 5px solid #fff;
+    background-color: #DB002C;
+    transition: all 1s;
+}
+
+.responsive-container > img{
+    box-shadow: 5px 5px 20px 0 #004C99;
+    transition: all 0.4s;
+}
+
+.responsive-container > img:hover{
+    transform: scale(1.1);
+}
+
+.responsive-iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px 0 red;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+span{
+    font-size: 2em;
+}
+
+.messi-top-image{
+  text-align: center;
+  color: white;
+  height: auto;
+  display: flex;
+  align-items:center;
+  flex: 10px;
+}
+
+.fl{
+    display: flex;
+    justify-content: right;
+}
+
+.bd{
+    width: 100%;
+    height: 700px;
+    clip: rect(0px, 0, 0, 50px);
+}
+
+.photo-section{
+    display: flex;
+}
+
+.two-images{
+    padding-right: 10px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+.two-images:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.name{
+    font-size: 9vw !important;
+    width: 100%;
+    color: white;
+    padding: 100px;
+}
+
+.fp{
+    font-size: 4vw !important;
+    width: 100%;
+    color:white;
+}
+
+.logo{
+    margin: 10px;
+    margin-left: 3px;
+    float: right;
+}
+
+.btn{
+    background-color: white;
+    color: #004C99;
+    border: 4px solid white;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.5s;
+    font-size:medium !important;
+    width: 190px;
+    height: 50px;
+}
+
+.btn:hover{
+    color:white;
+    background-color: #004C99;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 20px;
+
+}
+
+.under-top-img{
+    background-color: #004D98;
+    margin: 0;
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 5px solid #fff;
+}
+
+
+
+.under-top-img > h1{
+    margin: 0;
+}
+
+.home{
+    background-color: #DB002C;
+    transition: all 0.5s;
+}
+
+.s-m{
+width:28px;
+height:28px;
+
+}
+.social-media{
+    margin: 0;
+    padding: 0;
+}
+.social-media ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li{
+    margin: 12px;
+}
+
+li:hover{
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.cls{
+    display: flex;
+    align-items:center;
+}
+   .footer{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #004C99;
+    color: white;
+    text-align: right;
+    border-top: 2px solid white;
+}
+
+
+.m-d{
+    display: inline;
+    width: 100%;
+    justify-content: space-between;
+}
+.topnav.responsive a:hover {
+background-color:  #7e0019;
+color: white;
+transition: 0.4s;
+}
+.topnav a:hover{
+    background-color: #7e0019;
+}
+
+
+.topnav a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+
+.topnav .icon {
+display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+.topnav a:not(:first-child) {display: none;}
+.topnav a.icon {
+    float: right;
+    display: block;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+.topnav.responsive {position: relative;}
+.topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+    background-color: #DB002C;
+}
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+    background-color: #DB002C;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    .bd{
+        width: 100%;
+        height: auto;
+        transition: 1s;
+    }
+    .btn{
+    }
+    .fp{
+        width: 100%;
+        height: auto;
+    }
+    .name{
+        width: 100%;
+        height: auto;
+    }
+    .logo{
+        display: none;
+    }
+    .under-top-img{
+        width: 100;
+        height: auto;
+    }
+    
+    .photo-section > img{
+        width: auto;
+        height: auto;
+    }
+  }
+
+@media screen and (max-width: 450px){
+    
+     .btn{
+    }
+    
+    .fp{
+        width: 100%;
+        height: auto;
+    }
+    
+    .name{
+        width: 100%;
+        height: auto;
+    } 
+}

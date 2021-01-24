@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/png" href="images/logoms.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Lionel Messi</title>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="home">Дома</a>
+  <a href="news.html">Новости</a>
+  <a href="#life.html">Живот</a>
+  <a href="about.html">Клуб</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+  <img src="images/logoms.png" class="logo" width=35px; height=35px;>
+  <div class="m">
+    <div class="caption">
+      <div><b>Lionel Messi</b></div>
+      <div><b>Фудбалски Играч</b></div>
+      <button onclick="window.location.href='https://messi.com/en/';" class=" btn"><b>Прочитај Повеќе</b></button>
+    </div>
+  </div>
+</div>
+
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+  
+
+  <!-- <div id="box-search">
+    <div class="thumbnail">
+      <img src="images/messi1.jpg" class="bd">
+        <div class="caption">
+          <div><b>Lionel Messi</b></div>
+          <div><b>Фудбалски Играч</b></div>
+          <button onclick="window.location.href='https://messi.com/en/';" class=" btn"><b>Прочитај Повеќе</b></button>
+        </div>
+    </div>
+</div> -->
+
+  <div class="under-top-img">
+    <div class="row">
+      <div class="column">
+        <h1>Кратка Биографија</h1>
+        <h3><strong style="text-transform: uppercase;">Lionel Messi</strong> е фудбалски играч кој настапува за тимот со име Барселона. Тој е еден од најпознатите играчи на фудбал во денешно време, а исто така и еден од најдобрите. Тој
+          од самиот почеток на својата кариера на 13 години започнал да игра во Барселона и никогаш го нема променето тимот.
+        </h3>
+      </div>
+      <div class="column fl">
+        <iframe class="responsive-iframe" width="560" height="300" src="https://www.youtube.com/embed/K9ShH50QvTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+   </div>
+  </div>
+
+  <div class="responsive-container">
+    <img src="images/messiZ1.jpg" width="100%" height=auto class="hover-images">
+    <img src="images/messiZ2.jpg" width="100%" height=auto class="hover-images">
+    <img src="images/backgroundS.jpg" width="100%" height=auto class="hover-images">
+    <img src="images/messi4.jpg" width="100%" height=auto class="hover-images">
+  </div>
+
+  <div class="footer">
+    <div class="social-media">
+      <ul>
+        <li><a href="https://www.facebook.com/leomessi"><img class="s-m" src="images\fb.png"></a></li>
+        <li><a href="https://www.instagram.com/leomessi/?hl=en"><img class="s-m" src="images\insta1.png"></a></li>
+        <li><a href="https://www.youtube.com/user/LeoMessi"><img class="s-m" src="images\youtube.png"></a></li>
+        <li><a href="https://twitter.com/WeAreMessi?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img class="s-m" src="images\twitter.png"></a></li>
+        <p class="m-d">Изработил: Јордан Беличев</p>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
